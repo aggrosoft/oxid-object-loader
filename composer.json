@@ -21,5 +21,6 @@
     "psr-4": {
       "Aggrosoft\\ObjectLoader\\": "../../../source/modules/agobjectloader"
     }
-  }
+  },
+  "version": "1.0.1"
 }
