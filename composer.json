@@ -1,0 +1,25 @@
+{
+  "name": "aggrosoft/oxid-object-loader",
+  "type": "oxideshop-module",
+  "description": "Generic Object loader",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1"
+  },
+  "authors": [
+    {
+      "name": "Alexander Kludt",
+      "homepage": "https://github.com/aggrosoft"
+    }
+  ],
+  "extra": {
+    "oxideshop": {
+      "target-directory": "agobjectloader"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Aggrosoft\\ObjectLoader\\": "../../../source/modules/agobjectloader"
+    }
+  }
+}
